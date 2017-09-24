@@ -10,7 +10,7 @@ Just download the index.php from this repository, upload and run the script on a
 
 # Languages 
 
-Currently this program can write poem in two language, which is Bengali and English. If you want to train this program to your own language simply contact me. 
+Currently this program can write poem in two language, which are Bengali and English. If you want to train this program to your own language simply contact me. 
 
 # Note 
 
