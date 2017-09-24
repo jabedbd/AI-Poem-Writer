@@ -8,3 +8,7 @@ You will found a demo of the script here http://alor-nishan.com/poet/
 
 Just download the index.php from this repository, upload and run the script on any php supported server :) 
 
+# Note 
+
+Don't take this project as serious, it's a fun project. Or you can make this fun project to a serious project.
+
