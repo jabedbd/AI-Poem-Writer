@@ -137,13 +137,13 @@ function complete(){
      $('#poem').append("<p><strong style='color:#8FC357'>I just wrote it. Do you like the poem?</strong></p>");
      
      
-     $.post("http://vargrid.com/jabed/poet/save.php",
+     $.post("http://ai.khichuri.net/save.php",
     {
         poem: fullpoem,
         title: title,
     },
     function(data, status){
-         $('#poem').append("Link: <a href='http://alor-nishan.com/poet/poem.php?id="+data+"'>http://vargrid.com/jabed/poet/poem.php?id="+data+"</a>");
+         $('#poem').append("Link: <a href='http://ai.khichuri.net/poem.php?id="+data+"'>http://ai.khichuri.net/poem.php?id="+data+"</a>");
     });
     
 }
@@ -180,7 +180,7 @@ function One(word){
         makeline = "";
     }
     
-    $.get("hhttp://vargrid.com/jabed/poet/poemwrite.php?word="+word, function(data, status){
+    $.get("http://ai.khichuri.net/poemwrite.php?word="+word, function(data, status){
            // $('#poem').append(data+" ");
         makeline += data+" ";
         if(poemline < 5){
@@ -207,7 +207,7 @@ function One(word){
         AddLine(makeline);
         makeline = "";
     }
-        $.get("http://vargrid.com/jabed/poet/poemwrite.php?word="+word, function(data, status){
+        $.get("http://ai.khichuri.net/poemwrite.php?word="+word, function(data, status){
             //$('#poem').append(data+" ");
               makeline += data+" ";
              if(poemline < 5){
